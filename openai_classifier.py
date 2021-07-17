@@ -12,7 +12,7 @@ def make_single_request(tweet):
         model="davinci",
         examples=[
             ["Great moment to buy some stock", "Positive"],
-            ["Huge sell signal, warning", "Negative"],
+            ["Huge drops in prices, warning", "Negative"],
             ["Time to buy some more stock", "Positive"],
             ["Crash is coming, sell now", "Negative"],
             ["Amazing run this week, markets seem bullish", "Positive"],
